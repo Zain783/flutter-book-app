@@ -27,7 +27,6 @@ class MyApp extends StatelessWidget {
 // as the homepage of your application.
 class GFG extends StatefulWidget {
   const GFG({Key? key}) : super(key: key);
-
   @override
   State<GFG> createState() => _GFGState();
 }
@@ -112,6 +111,13 @@ class _GFGState extends State<GFG> {
             ),
           ],
         ),
+      ),
+      body: Column(
+        children: [
+
+
+          
+        ],
       ),
       appBar: AppBar(
         centerTitle: true,
@@ -208,6 +214,7 @@ class CustomSearchDelegate extends SearchDelegate {
       },
     );
   }
+
 // last overwrite to show the
 // querying process at the runtime
   @override
